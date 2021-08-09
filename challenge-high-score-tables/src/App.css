@@ -1,0 +1,185 @@
+body{
+  background-image: url("https://blog.motionisland.com/wp-content/uploads/2018/09/0-to-1K.gif");
+  background-size:300px;
+  background-repeat: repeat-y;
+  background-position: left;
+}
+html{
+  height: 100%;
+  background-image: url("https://blog.motionisland.com/wp-content/uploads/2018/09/0-to-1K.gif");
+  background-size: 300px;
+  background-repeat: repeat-y;
+  background-position: right;
+}
+.App {
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  border: 10px dashed rgb(135, 5, 5);
+  font-size: 10px;
+  color: rgb(32, 15, 146);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.countryName{
+  color: rgb(7, 41, 70);
+  font-size: 16px;
+}
+.score{
+  display: flex;
+  justify-content: center;
+}
+.countryBorder{
+ border: 6px rgb(13, 13, 226) solid;
+ display: flex;
+ justify-content: center;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ width: 60%;
+ margin-left:auto;
+ margin-right: auto;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+.bodyTable{
+  display: flex;
+  justify-content: space-between;
+}
+.scoreClass{
+ border: 2px solid black;
+ width:400px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 1px;
+ padding-left: auto;
+ padding-right: auto;
+}
+.myName{
+  font-size: 20px;
+  color: rgb(111, 8, 139);
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+.myScore{
+  color: rgb(171, 25, 12);
+  font-size:x-large;
+  padding-top:2%;
+  padding-bottom: 2%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+  padding-left:30px;
+  padding-right: auto;
+  text-align: center;
+}
+.small-table{
+  justify-content: center;
+  display: inherit;
+}
+
+.Ascending {
+  padding: 10px 10px;
+  margin-top: 10px;
+  border: 1px solid red;
+  background-color: red;
+  cursor: pointer;
+}
+.Descending{
+  padding: 10px 10px;
+  margin-top: 10px;
+  color: white;
+  border: 1px solid blue;
+  background-color: rgb(19, 27, 134);
+  cursor: pointer;
+}
+.status {
+  font-size: 20px;
+  margin-right: 10px;
+  color: black;
+  background-color: green;
+  padding: 2px 12px 10px 12px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media only screen and (max-width : 1200px){
+   body{
+     background-color: white;
+     background-image: none;
+   }
+   html{
+     height: 100%;
+     background-image: none;
+   }
+   .score{
+     display: inline-flex;
+     font-size: 5px;
+   }
+   .countryName{
+     font-size: 8px;
+   }
+   .countryBorder{
+     width: 80%;
+     margin-right: auto;
+     margin-left: auto;
+     border: 6px rgb(2, 155, 35) solid;
+   }
+   .myName{
+     font-size: 8px;
+   }
+   .myScore{
+     font-size: 8px;
+   }
+   .scoreClass{
+     width: 200px;
+     display: inline-table;
+     justify-content: center;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   .header{
+     font-size: 8px;
+   }
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .small-table{
+    display: flex;
+    flex-direction: column;
+   }
+   .App{
+     border:10px solid blue;
+   }
+}
+
+@media(max-width:800px){
+  .scoreClass{
+    width:150px;
+  }
+}
