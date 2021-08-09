@@ -1,0 +1,75 @@
+.country {
+    padding: 50px;
+    color: #fff;
+}
+
+.btns-light {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    background-color: hsl(209, 23%, 22%);
+}
+
+.country article .country-details-main div {
+    margin: 30px 0;
+}
+
+.country article .country-details-main div h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 40PX;
+}
+
+.country article .country-details-main div h5 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.country article .country-details-main div h5 span {
+    font-weight: 300;
+}
+
+.country article h3 {
+    font-size: 18px;
+    margin: 0 10px;
+    background-color: hsl(209, 23%, 22%);
+}
+
+.country article .borders {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.country article .borders ul {
+    margin: 10px;
+    background-color: hsl(209, 23%, 22%);
+    padding: 3px 15px;
+    border-radius: 3px;
+    box-shadow: 0 5px 20px hsla(200, 15%, 8%, 0.5);
+}
+
+.country article .borders ul li {
+    list-style: none;
+}
+
+@media screen and (min-width: 992px) {
+  .country article {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .country-details-main {
+      margin-left: 40px;
+  }
+
+  .country-details .details2 {
+      padding-top: 80px;
+      padding-left: 50px;
+  }
+
+  .country-details {
+      display: flex;
+  }
+}

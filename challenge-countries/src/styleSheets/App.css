@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: hsl(207, 26%, 17%);
+}
+
+#root.light-theme {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(200, 15%, 8%);
+}
+
+#root {
+  background: hsl(209, 23%, 22%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+header i {
+  color: hsl(0, 0%, 100%);
+  height: 27px;
+}
+
+header.light-theme {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(200, 15%, 8%);
+}
+
+.card-body {
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+}
+
+.card-body p {
+  font-size: 0.8rem;
+  width: 200px;
+}
+
+.card-body span {
+  font-weight: 300;
+}
+
+.card {
+  border: none;
+  margin: 2rem;
+  width: 227px;
+}
+
+.card-img-top {
+  height: 100%;
+}
+
+.color-switch {
+  color: hsl(0, 0%, 100%);
+}
+
+.searchBar {
+  font-family: inherit;
+  width: 100%;
+  height: 40px;
+  margin-top: 1rem;
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+.searchBar::placeholder {
+  color: hsl(0, 0%, 100%);
+}
+
+.search-icon {
+  color: #fff;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8rem;
+}
+
+.filter-select {
+  font-family: inherit;
+  width: 100%;
+  height: 40px;
+  margin-top: 1rem;
+  background-color: hsl(207, 26%, 17%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 5px;
+  padding-left: 1rem;
+}
+
+.searchBar.light-theme, .filter-select.light-theme {
+  background-color: hsl(0, 0%, 52%);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btns {
+  background-color: hsl(207, 26%, 17%);
+  padding: 5px;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(207, 26%, 17%);
+  border-radius: 4px;
+  font-size: 10px;
+  transition: background-color 0.2s;
+}
+
+.btns:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(207, 26%, 17%);
+}
+
+.btns-light {
+  background-color: hsl(209, 23%, 22%);
+  border: 2px solid hsl(209, 23%, 22%);
+}
+
+@media screen and (max-width: 450px) {
+  header h2 {
+    font-size: 1rem;
+  }
+
+  .searchBar {
+    width: 40%;
+    margin-left: 1rem;
+  }
+}
+
